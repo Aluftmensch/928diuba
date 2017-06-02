@@ -1,0 +1,58 @@
+[ 2016-11-06T21:40:14+08:00 ] 127.0.0.1 /928diuba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `diuba_losts` [ RunTime:0.0467s ]
+SQL: SHOW COLUMNS FROM `diuba_find` [ RunTime:0.0354s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_losts` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_find` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_losts` WHERE ( isfinish=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_find` WHERE ( isfinish=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `diuba_losts` WHERE ( isfinish=0 ) ORDER BY isfirst desc,id desc LIMIT 4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `diuba_find` WHERE ( isfinish=0 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\www\928diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014204s ]
+
+[ 2016-11-06T21:42:04+08:00 ] 127.0.0.1 /928diuba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+SQL: SHOW COLUMNS FROM `diuba_losts` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `diuba_find` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_losts` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_find` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_losts` WHERE ( isfinish=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `diuba_find` WHERE ( isfinish=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `diuba_losts` WHERE ( isfinish=0 ) ORDER BY isfirst desc,id desc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `diuba_find` WHERE ( isfinish=0 ) ORDER BY id desc LIMIT 4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Undefined variable: vo F:\wamp\www\928diuba\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001600s ]
+

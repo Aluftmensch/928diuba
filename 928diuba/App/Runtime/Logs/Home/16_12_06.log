@@ -1,0 +1,18 @@
+[ 2016-12-06T14:10:56+08:00 ] 127.0.0.1 /928diuba/Home/Users/userInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+ERR: 非法操作:userInfo
+
+[ 2016-12-06T14:11:12+08:00 ] 127.0.0.1 /928diuba/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003150s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'diuba.diuba_losts' doesn't exist
+

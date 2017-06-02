@@ -1,0 +1,9 @@
+[ 2016-11-19T18:07:11+08:00 ] 127.0.0.1 /928diuba/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'diuba.diuba_losts' doesn't exist
+
